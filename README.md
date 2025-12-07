@@ -1,24 +1,24 @@
-# 👋 Hola, soy Adam Puche Lioubavina
+# 👋 Hi, I'm Adam Puche Lioubavina
 
 <div align="center">
   
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-puche-lioubavina-6aa717217/)
   
-  **Estudiante de HND in Computing | Desarrollador de Software | Entusiasta de Game Development**
+  **HND in Computing Student | Software Developer | Game Development Enthusiast**
   
 </div>
 
 ---
 
-## 🚀 Sobre mí
+## 🚀 About Me
 
-Soy estudiante de HND in Computing apasionado por el desarrollo de software y los videojuegos. Me especializo en programación de bajo y alto nivel, con experiencia en desarrollo de aplicaciones y motores de juegos. Siempre buscando aprender nuevas tecnologías y enfrentar desafíos técnicos.
+I'm an HND in Computing student passionate about software development and video games. I specialize in low-level and high-level programming, with experience in application development and game engines. Always looking to learn new technologies and tackle technical challenges.
 
 ---
 
-## 💻 Tecnologías y Herramientas
+## 💻 Technologies & Tools
 
-### Lenguajes de Programación
+### Programming Languages
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
@@ -27,7 +27,7 @@ Soy estudiante de HND in Computing apasionado por el desarrollo de software y lo
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![ARM Assembly](https://img.shields.io/badge/ARM%20Assembly-0091BD?style=for-the-badge&logo=arm&logoColor=white)
 
-### IDEs y Motores
+### IDEs & Engines
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
 ![JetBrains](https://img.shields.io/badge/JetBrains-000000?style=for-the-badge&logo=jetbrains&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
@@ -35,7 +35,7 @@ Soy estudiante de HND in Computing apasionado por el desarrollo de software y lo
 
 ---
 
-## 📊 Estadísticas de GitHub
+## 📊 GitHub Statistics
 
 <div align="center">
   
@@ -45,19 +45,19 @@ Soy estudiante de HND in Computing apasionado por el desarrollo de software y lo
 
 ---
 
-## 🎯 Áreas de Interés
+## 🎯 Areas of Interest
 
-- 🎮 Desarrollo de Videojuegos
-- 🖥️ Programación de Sistemas
-- 🔧 Arquitectura de Software
-- 🚀 Optimización y Rendimiento
-- 🤖 Inteligencia Artificial en Juegos
+- 🎮 Game Development
+- 🖥️ Systems Programming
+- 🔧 Software Architecture
+- 🚀 Optimization & Performance
+- 🤖 Artificial Intelligence in Games
 
 ---
 
-## 📫 Contacto
+## 📫 Contact
 
-¿Quieres colaborar en un proyecto o simplemente charlar sobre tecnología? ¡No dudes en contactarme!
+Want to collaborate on a project or just chat about technology? Feel free to reach out!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Adam_Puche_Lioubavina-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-puche-lioubavina-6aa717217/)
 
@@ -65,7 +65,7 @@ Soy estudiante de HND in Computing apasionado por el desarrollo de software y lo
 
 <div align="center">
   
-  *"Si puedes imaginarlo, puedes programarlo"*
+  *"If you can imagine it, you can code it"*
   
   ![Profile Views](https://komarev.com/ghpvc/?username=Apl512&color=blueviolet&style=for-the-badge)
 
