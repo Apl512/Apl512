@@ -69,7 +69,7 @@ Soy estudiante de HND in Computing apasionado por el desarrollo de software y lo
 
 <div align="center">
   
-  *"El código es poesía en movimiento"*
+  *"Si puedes imaginarlo, puedes programarlo"*
   
   ![Profile Views](https://komarev.com/ghpvc/?username=Apl512&color=blueviolet&style=for-the-badge)
 
