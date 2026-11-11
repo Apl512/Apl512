@@ -1,18 +1,8 @@
 # 👋 Hi, I'm Adam Puche Lioubavina
 
-<div align="center">
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-puche-lioubavina-6aa717217/)
-  
-  **HND in Computing Student | Software Developer | Game Development Enthusiast**
-  
-</div>
+**HND in Computing Student | Software Developer | Game Development Enthusiast**
 
----
-
-## 🚀 About Me
-
-I'm an HND in Computing student passionate about software development and video games. I specialize in low-level and high-level programming, with experience in application development and game engines. Always looking to learn new technologies and tackle technical challenges.
+I'm an HND in Computing student passionate about software development and video games. I specialize in low-level and high-level programming, with experience in application development and game engines.
 
 ---
 
@@ -35,38 +25,6 @@ I'm an HND in Computing student passionate about software development and video 
 
 ---
 
-## 📊 GitHub Statistics
-
-<div align="center">
-  
-  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Apl512&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
-## 🎯 Areas of Interest
-
-- 🎮 Game Development
-- 🖥️ Systems Programming
-- 🔧 Software Architecture
-- 🚀 Optimization & Performance
-- 🤖 Artificial Intelligence in Games
-
----
-
 ## 📫 Contact
 
-Want to collaborate on a project or just chat about technology? Feel free to reach out!
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adam_Puche_Lioubavina-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-puche-lioubavina-6aa717217/)
-
----
-
-<div align="center">
-  
-  *"If you can imagine it, you can code it"*
-  
-  ![Profile Views](https://komarev.com/ghpvc/?username=Apl512&color=blueviolet&style=for-the-badge)
-
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-puche-lioubavina-6aa717217/)
