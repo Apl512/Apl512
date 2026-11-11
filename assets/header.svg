@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a12"/>
+      <stop offset="1" stop-color="#1a0630"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f9f002"/>
+      <stop offset="1" stop-color="#ff2a6d"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#00f0ff" stroke-opacity="0.08"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" fill-opacity="0.3"/>
+    </pattern>
+    <clipPath id="sunclip"><circle cx="850" cy="150" r="75"/></clipPath>
+    <style>
+      .mono { font-family: 'Courier New', Consolas, monospace; font-weight: bold; }
+      .name { font-size: 50px; }
+      .sub  { font-size: 19px; letter-spacing: 2px; }
+      .tag  { font-size: 14px; letter-spacing: 3px; }
+      .c1 { animation: g1 3.2s infinite steps(1); }
+      .c2 { animation: g2 3.2s infinite steps(1); }
+      @keyframes g1 {
+        0%, 88%, 100% { transform: translate(0, 0); }
+        89% { transform: translate(-5px, 1px); }
+        91% { transform: translate(4px, -2px); }
+        93% { transform: translate(-2px, 0); }
+        95% { transform: translate(0, 0); }
+      }
+      @keyframes g2 {
+        0%, 88%, 100% { transform: translate(0, 0); }
+        89% { transform: translate(5px, -1px); }
+        91% { transform: translate(-4px, 2px); }
+        93% { transform: translate(2px, 0); }
+        95% { transform: translate(0, 0); }
+      }
+      .cursor { animation: blink 1s infinite steps(1); }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      .pulse { animation: pulse 2.5s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+      .sweep { animation: sweep 4s linear infinite; }
+      @keyframes sweep { 0% { transform: translateY(-20px); } 100% { transform: translateY(340px); } }
+    </style>
+  </defs>
+
+  <rect width="1000" height="320" fill="url(#bg)"/>
+  <rect width="1000" height="320" fill="url(#grid)"/>
+
+  <!-- sun -->
+  <circle cx="850" cy="150" r="75" fill="url(#sun)" opacity="0.9" class="pulse"/>
+  <g clip-path="url(#sunclip)" fill="#0a0a12">
+    <rect x="770" y="160" width="160" height="4"/>
+    <rect x="770" y="176" width="160" height="6"/>
+    <rect x="770" y="194" width="160" height="8"/>
+    <rect x="770" y="214" width="160" height="10"/>
+  </g>
+
+  <!-- perspective floor -->
+  <g stroke="#ff2a6d" stroke-opacity="0.35" stroke-width="1">
+    <line x1="500" y1="250" x2="-100" y2="320"/>
+    <line x1="500" y1="250" x2="100" y2="320"/>
+    <line x1="500" y1="250" x2="300" y2="320"/>
+    <line x1="500" y1="250" x2="500" y2="320"/>
+    <line x1="500" y1="250" x2="700" y2="320"/>
+    <line x1="500" y1="250" x2="900" y2="320"/>
+    <line x1="500" y1="250" x2="1100" y2="320"/>
+    <line x1="0" y1="262" x2="1000" y2="262"/>
+    <line x1="0" y1="278" x2="1000" y2="278"/>
+    <line x1="0" y1="298" x2="1000" y2="298"/>
+  </g>
+
+  <!-- corner brackets -->
+  <g fill="none" stroke="#00f0ff" stroke-width="3">
+    <path d="M20 60 V20 H60"/>
+    <path d="M940 20 H980 V60"/>
+    <path d="M20 260 V300 H60"/>
+    <path d="M940 300 H980 V260"/>
+  </g>
+
+  <text x="60" y="62" class="mono tag pulse" fill="#00f0ff">// SYSTEM ONLINE :: USER_PROFILE.EXE</text>
+
+  <!-- glitch name -->
+  <text x="60" y="140" class="mono name c1" fill="#ff2a6d" opacity="0.85">ADAM PUCHE LIOUBAVINA</text>
+  <text x="60" y="140" class="mono name c2" fill="#00f0ff" opacity="0.85">ADAM PUCHE LIOUBAVINA</text>
+  <text x="60" y="140" class="mono name" fill="#ffffff">ADAM PUCHE LIOUBAVINA</text>
+
+  <text x="60" y="185" class="mono sub" fill="#f9f002">HND IN COMPUTING // SOFTWARE DEV // GAME DEV</text>
+  <text x="60" y="222" class="mono tag" fill="#00f0ff" opacity="0.9">&gt; low-level + high-level | graphics APIs | build systems<tspan class="cursor">_</tspan></text>
+
+  <!-- scanlines + sweep -->
+  <rect width="1000" height="320" fill="url(#scan)"/>
+  <rect class="sweep" x="0" y="0" width="1000" height="18" fill="#00f0ff" opacity="0.07"/>
+  <rect x="1" y="1" width="998" height="318" fill="none" stroke="#00f0ff" stroke-opacity="0.5"/>
+</svg>

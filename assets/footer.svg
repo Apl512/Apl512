@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="140" viewBox="0 0 1000 140">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a12"/>
+      <stop offset="1" stop-color="#1a0630"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#00f0ff" stroke-opacity="0.08"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" fill-opacity="0.3"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'Courier New', Consolas, monospace; font-weight: bold; }
+      .q { font-size: 26px; letter-spacing: 2px; }
+      .s { font-size: 13px; letter-spacing: 4px; }
+      .c1 { animation: g1 4s infinite steps(1); }
+      .c2 { animation: g2 4s infinite steps(1); }
+      @keyframes g1 {
+        0%, 90%, 100% { transform: translate(0, 0); }
+        91% { transform: translate(-4px, 1px); }
+        94% { transform: translate(3px, -1px); }
+        96% { transform: translate(0, 0); }
+      }
+      @keyframes g2 {
+        0%, 90%, 100% { transform: translate(0, 0); }
+        91% { transform: translate(4px, -1px); }
+        94% { transform: translate(-3px, 1px); }
+        96% { transform: translate(0, 0); }
+      }
+      .pulse { animation: pulse 2.5s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: .4; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+  <rect width="1000" height="140" fill="url(#bg)"/>
+  <rect width="1000" height="140" fill="url(#grid)"/>
+  <g fill="none" stroke="#00f0ff" stroke-width="3">
+    <path d="M20 40 V15 H45"/>
+    <path d="M955 15 H980 V40"/>
+    <path d="M20 100 V125 H45"/>
+    <path d="M955 125 H980 V100"/>
+  </g>
+  <text x="500" y="68" text-anchor="middle" class="mono q c1" fill="#ff2a6d" opacity="0.85">"IF YOU CAN IMAGINE IT, YOU CAN CODE IT"</text>
+  <text x="500" y="68" text-anchor="middle" class="mono q c2" fill="#00f0ff" opacity="0.85">"IF YOU CAN IMAGINE IT, YOU CAN CODE IT"</text>
+  <text x="500" y="68" text-anchor="middle" class="mono q" fill="#ffffff">"IF YOU CAN IMAGINE IT, YOU CAN CODE IT"</text>
+  <text x="500" y="105" text-anchor="middle" class="mono s pulse" fill="#f9f002">// END_OF_TRANSMISSION //</text>
+  <rect width="1000" height="140" fill="url(#scan)"/>
+  <rect x="1" y="1" width="998" height="138" fill="none" stroke="#00f0ff" stroke-opacity="0.5"/>
+</svg>
